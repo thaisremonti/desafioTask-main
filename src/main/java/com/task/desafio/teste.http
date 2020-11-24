@@ -1,17 +1,17 @@
-GET http://localhost:8090/desafio/lista
+GET http://localhost:8091/desafio/lista
 
 ###
 
-PUT http://localhost:8090/desafio/removeTask/71
+PUT http://localhost:8091/desafio/removeTask/93
 
 ###
 
-POST http://localhost:8090/desafio/novaTask/
+POST http://localhost:8091/desafio/novaTask/
 
 
 ###
 
-PUT  http://localhost:8090/desafio/atualizaTask/
+PUT  http://localhost:8091/desafio/atualizaTask/
 
 ###
 

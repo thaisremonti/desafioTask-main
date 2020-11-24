@@ -35,7 +35,7 @@ public class TaskController {
 	}
 
     @PostMapping(path="/novaTask/", consumes = MediaType.APPLICATION_JSON_VALUE) 
-    public @ResponseBody String novaTask (@RequestBody Task task) {
+    public @ResponseBody Task novaTask (@RequestBody Task task) {
         task.setDataCadastro(LocalDateTime.now());
         task.setExcluido('f');
 
@@ -46,7 +46,7 @@ public class TaskController {
         }
         taskRepository.save(task);
 
-        return "task";
+        return task;
     }
     
     @GetMapping(path="/lista")
