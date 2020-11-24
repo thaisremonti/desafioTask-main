@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaislremonti/desafioTask.git"
+  },
+  "author": "thais remonti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaislremonti/desafioTask/issues"
+  },
+  "devDependencies": {
+    "jquery": "^3.5.1"
+  },
+  "homepage": "https://github.com/thaislremonti/desafioTask#readme",
+  "dependencies": {
+    "jquery-serializejson": "^3.1.1"
+  }
+}
